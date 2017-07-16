@@ -1,0 +1,92 @@
+<!--pages/introduction/introduction.wxml-->
+<view class="container">
+  <view class="img_header">
+    <image class="fit_image" mode="widthFix" src="/images/spa_foot9.png"></image>
+  </view>
+
+  <view class="pro_info">
+    <text class="pro_name">{{pro_name}}</text>
+    <text class="pro_price">{{pro_price}}元</text>
+  </view>
+
+  <view class="pro_dec">
+    <view class="dec_info">
+      <image mode="widthFix" class="icon_time" src="/images/icon_time.png"></image>
+      <text class="dec_item">{{time}}分钟</text>
+      <text class="dec_item">销量:{{sales_volume}}</text>
+      <text class="dec_item">日间价:{{day_price}}</text>
+    </view>
+
+    <view class="divise_line"></view>
+
+    <view class="dec_info">
+      <image mode="widthFix" class="icon_time" src="/images/icon_people.png"></image>
+      <text class="dec_item">日间专享</text>
+      <image mode="widthFix" class="icon_time" src="/images/icon_more.png"></image>
+      <text class="dec_item">足疗项目</text>
+      <image mode="widthFix" class="icon_time" src="/images/icon_star.png"></image>
+      <text class="dec_item">五星服务</text>
+    </view>
+  </view>
+
+  <view class="service_flow">
+    <view class="service_flow_title">
+      <text>服务流程</text>
+    </view>
+
+    <view class="divise_line"></view>
+
+    <view class="service_img">
+      <view class="service_img_item">
+        <image mode="widthFix" src="/images/spa_foot10.png"></image>
+        <text>奶浴泡脚(5分钟)</text>
+      </view>
+
+      <view class="service_img_item">
+        <image mode="widthFix" src="/images/spa_foot11.png"></image>
+        <text>足疗小钟(45分钟)</text>
+      </view>
+
+      <view class="service_img_item">
+        <image mode="widthFix" src="/images/spa_foot13.png"></image>
+        <text>足底刮痧(5分钟)</text>
+      </view>
+
+      <view class="service_img_item">
+        <image mode="widthFix" src="/images/spa_face.png"></image>
+        <text>面部经络(5分钟)</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="explain">
+    <view class="service_flow_explain" bindtap="flodFn" data-id="1">
+      <text>服务流程</text>
+      <image mode="widthFix" class="more" src="/images/icon_collect.png"></image>
+    </view>
+    <view class="divise_line"></view>
+    <view class="{{isFold1 ?'flod':'extend'}}">
+     <text>{{more_content}}</text>
+    </view>
+
+
+    <view class="service_flow_explain" bindtap="flodFn" data-id="2">
+      <text>禁忌症状</text>
+      <image mode="widthFix" class="more" src="/images/icon_collect.png"></image>
+    </view>
+    <view class="divise_line"></view>
+    <view class="{{isFold2 ?'flod':'extend'}}">
+     <text>{{more_content}}</text>
+    </view>
+
+    <view class="service_flow_explain" bindtap="flodFn" data-id="3">
+      <text>下单须知</text>
+      <image mode="widthFix" class="more" src="/images/icon_collect.png"></image>
+    </view>
+    <view class="divise_line"></view>
+    <view class="{{isFold3 ?'flod':'extend'}}">
+     <text>{{more_content}}</text>
+    </view>
+  </view>
+
+</view>

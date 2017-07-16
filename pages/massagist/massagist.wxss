@@ -1,0 +1,57 @@
+/* pages/massagist/massagist.wxss */
+
+page {
+  background: #eeeff0;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20rpx;
+  border-bottom: 1px solid #dfe0e1;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-avatar {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.massagist-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16rpx;
+}
+
+.massagist-name {
+  font-size: 38rpx;
+  color: #535455;
+}
+
+.massagist-type {
+  font-size: 30rpx;
+  color: #929394;
+  margin-left: 10rpx;
+}
+
+.massagist-introduce {
+  font-size: 30rpx;
+  color: #929394;
+  margin-top: 20rpx;
+}
+
+.img-rate {
+  width: 45rpx;
+  height: 45rpx;
+}
+
+.right-distance {
+  align-self: center;
+  color: #929394;
+}

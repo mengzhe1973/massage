@@ -1,0 +1,10 @@
+<template name="spaItemTemplate">
+    <view class="spa-item-container">
+        <image class="spa-item-img" src="{{image}}"></image>
+        <view class="spa-item-info">
+          <text class="spa-item-title">{{title}}</text>
+          <text class="spa-item-desc">{{descripture}}</text>
+          <text class="spa-item-price">{{price}}</text>
+        </view> 
+    </view>
+</template>

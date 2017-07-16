@@ -1,0 +1,75 @@
+/* pages/home/home.wxss */
+@import "spa-item/spa-item-template.wxss";
+
+page {
+  background: #eeeff0;
+}
+
+.slide-image {
+  width: 100%;
+}
+
+.categorys {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #feffff;
+  padding: 1%;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  width: 19%;
+  padding: 3%;
+}
+
+.category image {
+  width: 120rpx;
+  height: 120rpx;
+  align-self: center;
+}
+
+.category text {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10rpx;
+}
+
+.recommend {
+  margin-top: 30rpx;
+  background-color: #f6f7f8;
+}
+
+.recommend-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 20rpx;
+}
+
+.lable {
+  padding: 20rpx 0 20rpx 20rpx;
+}
+
+.today-recommend {
+  color: #f78b4e;
+  padding-left: 16rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  border-left: 3px solid #f78b4e;
+  font-size: 30rpx;
+}
+
+.guess-like {
+  color: #f78b4e;
+  padding-left: 16rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  border-left: 3px solid #f78b4e;
+  font-size: 30rpx;
+}
+
+.guessLikes image {
+  width: 100%;
+}

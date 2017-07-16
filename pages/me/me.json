@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我",
+  "navigationBarBackgroundColor": "#09cc6f",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#ff0000",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false,
+  "color": "#1b1c1d"
+}

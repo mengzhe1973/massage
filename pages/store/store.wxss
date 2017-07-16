@@ -1,0 +1,13 @@
+/* pages/store/store.wxss */
+
+page {
+  background: #eeeff0;
+}
+
+.list {
+  background: white;
+}
+
+.list image {
+  width: 100%;
+}

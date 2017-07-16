@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/me/me",
+    "pages/store/store",
+    "pages/massagist/massagist",
+    "pages/home/home"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#09cc6f",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "SPA产品",
+    "backgroundColor": "#ff0000",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false,
+    "color": "#1b1c1d"
+  },
+  "tabBar": {
+    "color": "#575859",
+    "selectedColor": "#09cc6f",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath":"/images/tab_home_unselect.png",
+        "selectedIconPath": "/images/tab_home_select.png"
+      },
+      {
+        "pagePath": "pages/massagist/massagist",
+        "text": "师傅",
+        "iconPath": "/images/tab_technician_unselect.png",
+        "selectedIconPath": "/images/tab_technician_select.png"
+      },
+      {
+        "pagePath": "pages/store/store",
+        "text": "门店",
+        "iconPath": "/images/tab_store_unselect2.png",
+        "selectedIconPath": "/images/tab_store_select3.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "/images/tab_me_unselect.png",
+        "selectedIconPath": "/images/tab_me_select.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#09cc6f",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "SPA产品",
+  "backgroundColor": "#ff0000",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false,
+  "color": "#1b1c1d"
+}

@@ -1,0 +1,40 @@
+<!--pages/home/home.wxml-->
+<import src="spa-item/spa-item-template.wxml" />
+
+<view class="container">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="item">
+      <swiper-item>
+        <image mode="widthFix" src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="categorys">
+    <view class="category" wx:for="{{categorys}}" wx:key="item">
+      <image src="{{item.icon}}"></image>
+      <text>{{item.text}}</text>
+    </view>
+  </view>
+  <view class="recommend">
+
+    <view class="lable">
+      <text class="today-recommend">今日推荐</text>
+    </view>
+    <view class="recommend-list">
+      <block wx:for="{{recommends}}" wx:key="item">
+        <template is="spaItemTemplate" data="{{...item}}" />
+      </block>
+    </view>
+  </view>
+
+  <view class="tip">
+    <view class="lable">
+      <text class="guess-like">猜你喜欢</text>
+    </view>
+    <view class="guessLikes" wx:for="{{guessLikes}}" wx:key="item">
+      <image mode="widthFix" src="{{item.image}}"></image>
+    </view>
+  </view>
+
+</view>

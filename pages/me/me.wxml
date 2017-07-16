@@ -1,0 +1,68 @@
+<!--pages/me/me.wxml-->
+<view class="container">
+  <image class="header-img" src="http://106.14.176.248/kingman/massage/images/banner_me.png"></image>
+  <view class="header">
+    <view class="user">
+      <image src="http://106.14.176.248/kingman/massage/images/icon_me.png"></image>
+      <text>一叶知秋</text>
+    </view>
+  </view>
+
+  <view class="coupon">
+    <view class="coupon-list" wx:for="{{coupons}}" wx:key="item">
+      <view class="not-expire-coupon" wx:if="{{!item.isExpire}}">
+        <view class="column1">
+          <view class="price">
+            <text class="bigger-price colorf6ff04">50</text>
+            <text class="colorf6ff04 coupon-font-normal">元</text>
+          </view>
+          <text class="margin-top10 coupon-font-normal">满1000元可用</text>
+          <view class="moreLimit">
+            <text class="coupon-font-normal">更多规则</text>
+            <image src="http://106.14.176.248/kingman/massage/images/down_grey.png"></image>
+          </view>
+        </view>
+
+        <view class="column2">
+          <text>全场通用</text>
+          <text class="margin-top38 coupon-font-normal">有效期至{{item.expireTime}}</text>
+        </view>
+        <view class="column3">
+          <text class="use">立即使用</text>
+        </view>
+      </view>
+      <view class="expire-coupon" wx:else>
+        <view class="column1">
+          <view class="price">
+            <text class="bigger-price">50</text>
+            <text class="coupon-font-normal">元</text>
+          </view>
+          <text class="margin-top10 coupon-font-normal">满1000元可用</text>
+          <view class="moreLimit">
+            <text class="coupon-font-normal">更多规则</text>
+            <image src="http://106.14.176.248/kingman/massage/images/down_grey_expire.png"></image>
+          </view>
+        </view>
+
+        <view class="column2">
+          <text>全场通用</text>
+          <text class="margin-top38 coupon-font-normal">有效期至{{item.expireTime}}</text>
+        </view>
+        <view class="column3">
+          <image src="http://106.14.176.248/kingman/massage/images/is_expire.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="support">
+    <view class="phone">
+      <image src="http://106.14.176.248/kingman/massage/images/icon_phone.png"></image>
+      <text>联系电话17321292727</text>
+    </view>
+    <view class="custom-service">
+      <image src="http://106.14.176.248/kingman/massage/images/icon_service_supporter.png"></image>
+      <text>联系电话</text>
+    </view>
+  </view>
+</view>

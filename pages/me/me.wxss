@@ -1,0 +1,178 @@
+/* pages/me/me.wxss */
+page{
+  background: #eeeff0
+}
+.header-img {
+  width: 100%;
+  height: 400rpx;
+  filter: blur(10px);
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 400rpx;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.user image {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.user text {
+  color: white;
+}
+
+.support {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  background: white;
+  flex: 1;
+  font-size: 30rpx;
+  color: #10cb74;
+  margin: 10rpx 20rpx;
+  border-radius: 3%;
+}
+
+.phone image {
+  width: 50rpx;
+  height: 50rpx;
+  padding: 10rpx;
+  align-self: center;
+}
+
+.phone text {
+  align-self: center;
+}
+
+.custom-service {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  background: white;
+  flex: 1;
+  font-size: 30rpx;
+  color: #10cb74;
+  margin: 10rpx 20rpx;
+  border-radius: 3%;
+}
+
+.custom-service image {
+  width: 50rpx;
+  height: 50rpx;
+  padding: 10rpx;
+  align-self: center;
+}
+
+.custom-service text {
+  align-self: center;
+}
+
+.coupon-list {
+  margin-top: 20rpx;
+}
+
+.not-expire-coupon {
+  width: 100%;
+  height: 300rpx;
+  background: url('http://106.14.176.248/kingman/massage/images/leak_round.png');
+  background-size: 100% 100%;
+  margin-bottom: 20rpx;
+  display: flex;
+  flex-direction: row;
+  color: #faefec;
+  justify-content: space-between;
+  padding-top: 40rpx;
+}
+
+.expire-coupon {
+  width: 100%;
+  height: 300rpx;
+  background: url('http://106.14.176.248/kingman/massage/images/leak_round_grey.png');
+  background-size: 100% 100%;
+  margin-bottom: 20rpx;
+  display: flex;
+  flex-direction: row;
+  color: #b1b2b3;
+  justify-content: space-between;
+  padding-top: 40rpx;
+}
+
+.moreLimit {
+  display: flex;
+  margin-top: 80rpx;
+  align-self: center;
+}
+
+.moreLimit image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 56rpx;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.bigger-price {
+  font-size: 70rpx;
+}
+
+.colorf6ff04{
+  color: #f6ff04;
+}
+.coupon-font-normal {
+  font-size: 30rpx;
+}
+
+.margin-top10 {
+  margin-top: 10rpx;
+}
+
+.margin-top38 {
+  margin-top: 38rpx;
+}
+
+.use {
+  color: #f6ff04;
+  border: 1px #f6ff04 solid;
+  border-radius: 8%;
+  margin-right: 40rpx;
+  padding: 6rpx 20rpx;
+  font-size: 30rpx;
+}
+
+.column3 image{
+  width: 180rpx;
+  height: 180rpx;
+  margin-right: 40rpx;
+  margin-top: -40rpx;
+}

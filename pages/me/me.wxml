@@ -62,7 +62,7 @@
     </view>
     <view class="custom-service">
       <image src="http://106.14.176.248/kingman/massage/images/icon_service_supporter.png"></image>
-      <text>联系电话</text>
+      <text>客服</text>
     </view>
   </view>
 </view>

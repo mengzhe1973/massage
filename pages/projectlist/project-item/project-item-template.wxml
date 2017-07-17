@@ -1,0 +1,19 @@
+<template name="projectItemTemplate">
+    <block>
+        <image class="img-avatar" src="{{item.avatar}}"></image>
+      <view class="massagist-info">
+        <view class="massagist">
+          <text class="massagist-name">{{item.pro_name}}</text>
+          <text class="massagist-price">{{item.price}}元</text>
+        </view>
+        <view class="massagist massagist-volume">
+          <text>销量:{{item.sales_volume}}</text>
+          <text>{{item.time}}分钟</text>
+        </view>
+        <view class="massagist massagist-introduce">
+          <text>{{item.introduce}}{{item.pro}}</text>
+          <text class="appointment">预约</text>
+        </view>
+      </view>
+    </block>
+</template>

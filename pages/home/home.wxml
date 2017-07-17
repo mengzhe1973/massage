@@ -12,7 +12,7 @@
 
   <view class="categorys">
     <view class="category" wx:for="{{categorys}}" wx:key="item">
-      <image src="{{item.icon}}"></image>
+      <image src="{{item.icon}}" catchtap="onCategoryItemClick"></image>
       <text>{{item.text}}</text>
     </view>
   </view>

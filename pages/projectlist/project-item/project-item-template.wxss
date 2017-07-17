@@ -1,0 +1,49 @@
+.img-avatar {
+  width:150rpx;
+  height:150rpx;
+}
+
+.massagist-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 16rpx;
+  -webkit-box-flex: 1.0;
+  -moz-flex-grow: 1;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+}
+
+.massagist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.massagist-name {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.massagist-price {
+  color: #eb7b3b;
+  font-size: 30rpx;
+}
+
+.massagist-volume {
+  font-size: 24rpx;
+  color: #929394;
+}
+
+.massagist-introduce {
+  font-size: 24rpx;
+  color: #929394;
+  margin-top: 30rpx;
+}
+.appointment{
+  border: 1px #09cc6f solid;
+  border-radius: 2rpx;
+  color: #09cc6f;
+  padding: 6rpx 20rpx;
+}

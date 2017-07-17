@@ -1,18 +1,17 @@
 {
   "pages": [
-    "pages/masterlist/masterlist",
     "pages/projectlist/projectlist",
-    "pages/introduction/introduction",
+    "pages/home/home",
     "pages/massagist/massagist",
-    "pages/me/me",
     "pages/store/store",
-    "pages/home/home"
+    "pages/me/me",
+    "pages/masterlist/masterlist",
+    "pages/introduction/introduction"
   ],
   "window": {
     "navigationBarBackgroundColor": "#09cc6f",
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "SPA产品",
-    "backgroundColor": "#ff0000",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": false,
     "color": "#1b1c1d"

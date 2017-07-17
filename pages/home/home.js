@@ -145,5 +145,11 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  onCategoryItemClick: function(){
+    console.log("sddssdfsfss");
+    wx.navigateTo({
+      url: '/pages/projectlist/projectlist',
+    })
   }
 })

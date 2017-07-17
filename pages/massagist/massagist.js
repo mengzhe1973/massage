@@ -96,5 +96,10 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  onItemClick: function(){
+    wx.navigateTo({
+      url: '/pages/masterlist/masterlist',
+    })
   }
 })

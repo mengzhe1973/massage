@@ -10,25 +10,7 @@ Page({
     "choose_num": "666",
     "massagists": [
       {
-        "avatar": app.globalData.urlBase + "massage/images/technician1.png",
-        "pro_name": "梵境足道",
-        "sales_volume": "16666",
-        "introduce": "[五星服务]",
-        "pro": "[足疗项目]",
-        "price": "169",
-        "time": "60"
-      },
-      {
-        "avatar": app.globalData.urlBase + "massage/images/technician1.png",
-        "pro_name": "上品足浴",
-        "sales_volume": "16666",
-        "introduce": "[五星服务]",
-        "pro": "[足疗项目]",
-        "price": "159",
-        "time": "60"
-      },
-      {
-        "avatar": app.globalData.urlBase + "massage/images/technician1.png",
+        "avatar": app.globalData.urlBase + "massage/images/spa_foot6.png",
         "pro_name": "精英足浴",
         "sales_volume": "16666",
         "introduce": "[五星服务]",
@@ -37,7 +19,7 @@ Page({
         "time": "60"
       },
       {
-        "avatar": app.globalData.urlBase + "massage/images/technician1.png",
+        "avatar": app.globalData.urlBase + "massage/images/spa_foot7.png",
         "pro_name": "帮帮足浴",
         "sales_volume": "16666",
         "introduce": "[五星服务]",
@@ -46,7 +28,7 @@ Page({
         "time": "60"
       },
       {
-        "avatar": app.globalData.urlBase + "massage/images/technician1.png",
+        "avatar": app.globalData.urlBase + "massage/images/spa_foot8.png",
         "pro_name": "致品足浴",
         "sales_volume": "16666",
         "introduce": "[五星服务]",
@@ -55,7 +37,16 @@ Page({
         "time": "60"
       },
       {
-        "avatar": app.globalData.urlBase + "massage/images/technician1.png",
+        "avatar": app.globalData.urlBase + "massage/images/spa_foot.png",
+        "pro_name": "仙品足浴",
+        "sales_volume": "16666",
+        "introduce": "[五星服务]",
+        "pro": "[足疗项目]",
+        "price": "266",
+        "time": "60"
+      },
+      {
+        "avatar": app.globalData.urlBase + "massage/images/spa_foot.png",
         "pro_name": "仙品足浴",
         "sales_volume": "16666",
         "introduce": "[五星服务]",

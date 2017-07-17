@@ -1,33 +1,42 @@
 /* pages/projectlist/projectlist.wxss */
+@import "project-item/project-item-template.wxss";
+
+.scroll-view_H {
+  white-space: nowrap;
+  width: 100%;
+}
+
+.scroll-view-item_H {
+  width: 20%;
+}
 
 .swiper-tab {
-  width: 100%;
   border-bottom: 2rpx solid #e2e2e2;
   text-align: center;
   line-height: 80rpx;
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: space-around;
+  position: fixed;
+  z-index: 100;
+  background: #e2e2e2;
 }
 
 .swiper-tab-list {
   font-size: 30rpx;
   display: inline-block;
-  /*width: 20%;*/
   color: #777;
 }
 
 .on {
-  color: #da7c0c;
+  color: #09cc6f;
   border-bottom: 5rpx solid #09cc6f;
-  width: 20%;
 }
 
 .swiper-box {
   display: block;
-  height: 100%;
   width: 100%;
-  overflow: hidden;
+}
+
+swiper {
+  height: 100vh;
 }
 
 .list {
@@ -36,54 +45,4 @@
   background-color: white;
   padding: 20rpx;
   border-bottom: 1px solid #dfe0e1;
-}
-
-.img-avatar {
-  width: 150rpx;
-  height: 150rpx;
-}
-
-.massagist-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-left: 16rpx;
-  -webkit-box-flex: 1.0;
-  -moz-flex-grow: 1;
-  -webkit-flex-grow: 1;
-  flex-grow: 1;
-}
-
-.massagist {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.massagist-name {
-  font-size: 32rpx;
-  font-weight: bold;
-}
-
-.massagist-price {
-  color: #eb7b3b;
-  font-size: 30rpx;
-}
-
-.massagist-volume {
-  font-size: 24rpx;
-  color: #929394;
-}
-
-.massagist-introduce {
-  font-size: 24rpx;
-  color: #929394;
-  margin-top: 30rpx;
-}
-.appointment{
-  border: 1px #09cc6f solid;
-  border-radius: 2rpx;
-  color: #09cc6f;
-  padding: 6rpx 20rpx;
 }

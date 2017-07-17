@@ -1,6 +1,6 @@
 <!--pages/massagist/massagist.wxml-->
 <view class="container">
-  <view class="list" wx:for="{{massagists}}" wx:key="item">
+  <view class="list" wx:for="{{massagists}}" wx:key="item" bindtap="onItemClick">
     <view class="left-content">
       <image class="img-avatar" src="{{item.avatar}}"></image>
       <view class="massagist-info">

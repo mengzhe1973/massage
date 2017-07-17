@@ -1,0 +1,87 @@
+/* pages/projectlist/projectlist.wxss */
+
+.swiper-tab {
+  width: 100%;
+  border-bottom: 2rpx solid #e2e2e2;
+  text-align: center;
+  line-height: 80rpx;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  /*width: 20%;*/
+  color: #777;
+}
+
+.on {
+  color: #da7c0c;
+  border-bottom: 5rpx solid #09cc6f;
+  width: 20%;
+}
+
+.swiper-box {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-box view {
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20rpx;
+  border-bottom: 1px solid #dfe0e1;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-avatar {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.massagist-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16rpx;
+}
+
+.massagist-name {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.massagist-type {
+  font-size: 30rpx;
+  color: #929394;
+  margin-left: 10rpx;
+}
+
+.massagist-introduce {
+  font-size: 30rpx;
+  color: #929394;
+  margin-top: 20rpx;
+}
+
+.img-rate {
+  width: 45rpx;
+  height: 45rpx;
+}
+
+.right-distance {
+  align-self: center;
+  color: #929394;
+}

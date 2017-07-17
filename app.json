@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/projectlist/projectlist",
     "pages/introduction/introduction",
+    "pages/massagist/massagist",
     "pages/me/me",
     "pages/store/store",
-    "pages/massagist/massagist",
     "pages/home/home"
   ],
   "window": {

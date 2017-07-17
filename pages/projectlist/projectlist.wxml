@@ -1,0 +1,45 @@
+<!--pages/projectlist/projectlist.wxml-->
+<view class="swiper-tab">
+ <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">足部</view>
+ <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">中医</view>
+ <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">全身</view>
+ <view class="swiper-tab-list {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">足疗套餐</view>
+ <view class="swiper-tab-list {{currentTab==4 ? 'on' : ''}}" data-current="4" bindtap="swichNav">私人定制</view>
+ <!--<view class="swiper-tab-list {{currentTab==5 ? 'on' : ''}}" data-current="5" bindtap="swichNav">Seside6</view>-->
+</view>
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+ <swiper-item>
+  <view class="list" wx:for="{{massagists}}" wx:key="item">
+    <view class="left-content">
+      <image class="img-avatar" src="{{item.avatar}}"></image>
+      <view class="massagist-info">
+        <view class="massagist">
+          <text class="massagist-name">{{item.pro_name}}</text>
+          <text class="massagist-type">{{item.type}}</text>
+        </view>
+       
+        <text class="massagist-introduce">销量:{{item.sales_volume}}</text>
+        <text class="massagist-introduce">{{item.introduce}}</text>
+      </view>
+    </view>
+    <view class="right-distance">
+      <text>{{item.distance}}</text>
+    </view>
+  </view>
+ </swiper-item>
+ <swiper-item>
+  <view>Seside2</view>
+ </swiper-item>
+ <swiper-item>
+  <view>Seside3</view>
+ </swiper-item>
+  <swiper-item>
+  <view>Seside4</view>
+ </swiper-item>
+ <swiper-item>
+  <view>Seside5</view>
+ </swiper-item>
+ <!--<swiper-item>
+  <view>Seside6</view>
+ </swiper-item>-->
+</swiper>

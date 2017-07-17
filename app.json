@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/masterlist/masterlist",
     "pages/projectlist/projectlist",
     "pages/introduction/introduction",
     "pages/massagist/massagist",

@@ -1,0 +1,133 @@
+/* pages/masterlist/masterlist.wxss */
+
+.detail {
+  background: #fff;
+  padding: 20rpx;
+}
+
+.detail_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.detail_img image {
+  width: 160rpx;
+}
+
+.detail_content {
+  margin-top: 20rpx;
+  font-size: 32rpx;
+  display: flex;
+}
+
+.info {
+  border-bottom: 1px #e2e2e2 solid;
+  padding-bottom: 10rpx;
+}
+
+.type {
+  color: #969696;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.choose_num {
+  color: #969696;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+}
+
+.detail_left {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.star-image {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.master_dec {
+  color: #969696;
+  font-size: 26rpx;
+}
+
+.pro {
+  background: #fff;
+  margin-top: 30rpx;
+  padding: 20rpx;
+  font-size: 32rpx;
+  color: #eb7b3b;
+  display: flex;
+  align-items: center;
+}
+
+.pro_line {
+  background: #eb7b3b;
+  width: 8rpx;
+  height: 30rpx;
+  margin-right: 20rpx;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 20rpx;
+  border-bottom: 1px solid #dfe0e1;
+}
+
+.img-avatar {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.massagist-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 16rpx;
+  -webkit-box-flex: 1.0;
+  -moz-flex-grow: 1;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+}
+
+.massagist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.massagist-name {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.massagist-price {
+  color: #eb7b3b;
+  font-size: 30rpx;
+}
+
+.massagist-volume {
+  font-size: 24rpx;
+  color: #929394;
+}
+
+.massagist-introduce {
+  font-size: 24rpx;
+  color: #929394;
+  margin-top: 30rpx;
+}
+
+.appointment {
+  border: 1px #09cc6f solid;
+  border-radius: 2rpx;
+  color: #09cc6f;
+  padding: 6rpx 20rpx;
+}

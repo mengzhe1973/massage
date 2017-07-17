@@ -30,22 +30,12 @@
   overflow: hidden;
 }
 
-.swiper-box view {
-  text-align: center;
-}
-
 .list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   background-color: white;
   padding: 20rpx;
   border-bottom: 1px solid #dfe0e1;
-}
-
-.left-content {
-  display: flex;
-  flex-direction: row;
 }
 
 .img-avatar {
@@ -56,7 +46,19 @@
 .massagist-info {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin-left: 16rpx;
+  -webkit-box-flex: 1.0;
+  -moz-flex-grow: 1;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+}
+
+.massagist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .massagist-name {
@@ -64,24 +66,24 @@
   font-weight: bold;
 }
 
-.massagist-type {
+.massagist-price {
+  color: #eb7b3b;
   font-size: 30rpx;
+}
+
+.massagist-volume {
+  font-size: 24rpx;
   color: #929394;
-  margin-left: 10rpx;
 }
 
 .massagist-introduce {
-  font-size: 30rpx;
+  font-size: 24rpx;
   color: #929394;
-  margin-top: 20rpx;
+  margin-top: 30rpx;
 }
-
-.img-rate {
-  width: 45rpx;
-  height: 45rpx;
-}
-
-.right-distance {
-  align-self: center;
-  color: #929394;
+.appointment{
+  border: 1px #09cc6f solid;
+  border-radius: 2rpx;
+  color: #09cc6f;
+  padding: 6rpx 20rpx;
 }
